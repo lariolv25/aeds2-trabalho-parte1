@@ -22,10 +22,10 @@ Projeto em **C** baseado no esqueleto fornecido pela Profª. Janniele Aparecida 
 
 ```bash
 make
-./aedsii
+./aeds2
 ```
 
-Em Windows, se usar GCC diretamente, substitua `./aedsii` por `aedsii.exe`.
+Em Windows, se usar GCC diretamente, substitua `./aeds2` por `aeds2.exe`.
 
 ## Execução recomendada
 
