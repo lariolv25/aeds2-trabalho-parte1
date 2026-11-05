@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AEDSII_TESTES" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AEDSII_TESTES" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option working_dir="." />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AEDSII_TESTES" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option working_dir="." />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-Wextra" />
+			<Add option="-std=c11" />
+			<Add directory="." />
+		</Compiler>
+		<Unit filename="arvore_binaria.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="funcionario.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="intercalacao.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lista.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="manipulacao_arquivos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ordenacao_busca.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="particoes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pilha.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="testes/testar_algoritmos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="arvore_binaria.h" />
+		<Unit filename="funcionarios.h" />
+		<Unit filename="intercalacao.h" />
+		<Unit filename="lista.h" />
+		<Unit filename="manipulacao_arquivos.h" />
+		<Unit filename="ordenacao_busca.h" />
+		<Unit filename="particoes.h" />
+		<Unit filename="pilha.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

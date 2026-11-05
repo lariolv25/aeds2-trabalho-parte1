@@ -1,0 +1,14 @@
+# Arquivos gerados por compilação e execução
+bin/
+obj/
+aedsii
+aedsii.exe
+testar_algoritmos
+testar_algoritmos.exe
+build_testes/
+*.o
+*.dat
+*.depend
+*.layout
+.Rhistory
+ValgrindOut.xml

@@ -1,0 +1,20 @@
+EXECUTAR OS TESTES AUTOMATIZADOS NO CODE::BLOCKS
+
+1. Extraia TODO o arquivo ZIP.
+2. Abra AEDSII_TESTES.cbp (NÃO é o projeto AEDSII.cbp do menu normal).
+3. No Code::Blocks, selecione a configuração Debug.
+4. Pressione F9 (Build and Run).
+5. A janela do console exibe os cenários testados.
+6. Ao fim, procure a linha: TODOS OS TESTES PASSARAM.
+
+Este projeto usa testes/testar_algoritmos.c como funcao main()
+e deixa de fora o main.c do menu, evitando dois main() na compilacao.
+
+Testes: arquivo vazio; um registro; ja ordenado; ordem inversa;
+chaves repetidas; numeros negativos; alternados; chaves iguais;
+reservatorio maior que memoria; memoria maior que arquivo;
+memoria minima; 250 registros aleatorios.
+
+Obs.: testes usam assert(); se falharem, a execucao para e indica a assercao.
+Dados temporarios sao criados no diretorio de execucao;
+use uma pasta extraida e nao execute o ZIP diretamente.
